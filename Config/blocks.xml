@@ -1,0 +1,16 @@
+﻿<configs patcher-version="1">
+
+  <append xpath="/blocks">
+
+    <block name="OcbLightCheck">
+
+      <property name="DisplayInfo" value="Custom"/>
+      <property name="Class" value="LightCheck, EnclosedSpace"/>
+      <property name="Extends" value="glassBulletproofMaster"/>
+      <property name="LightOpacity" value="0"/>
+
+    </block>
+
+  </append>
+
+</configs>

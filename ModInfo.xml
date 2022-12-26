@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="OcbEnclosedSpace" />
+		<Description value="Calculate better if in enclosed space" />
+		<Website value="https://github.com/OCB7D2D/OcbEnclosedSpace" />
+		<Author value="ocbMaurice" />
+		<Version value="0.1.0" compat="A20"/>
+	</ModInfo>
+</xml>
