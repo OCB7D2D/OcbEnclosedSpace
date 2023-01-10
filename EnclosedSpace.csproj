@@ -93,9 +93,11 @@
     <Compile Include="Harmony\BlockLightCheck.cs" />
     <Compile Include="Harmony\EnclosedSpace.cs" />
     <Compile Include="Harmony\AssemblyInfo.cs" />
+    <Compile Include="Harmony\EntityShelteredBuff.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\blocks.xml" />
+    <Content Include="Config\buffs.xml" />
     <Content Include="ModInfo.xml" />
   </ItemGroup>
   <ItemGroup>

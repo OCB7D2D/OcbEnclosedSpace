@@ -1,0 +1,29 @@
+<configs>
+
+    <append xpath="/buffs">
+
+        <buff name="buffElementSheltered" name_key="buffElementShelteredName" description_key="buffElementShelteredDesc"
+            tooltip_key="buffElementShelteredTooltip" icon="ui_game_symbol_map_house" icon_color="164,192,128" icon_blink="true">
+
+            <!-- <damage_type value="cold"/>  -->
+            <stack_type value="ignore"/>
+
+            <effect_group>
+
+                <passive_effect name="BuffBlink" operation="base_set" value="8" duration="0,12" tags="buffElementSheltered"/>
+				        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="add" value="0.5"/>
+
+                <!--
+    			        <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".legTotalHealingRate" operation="add" value="0.8"/>
+    			        <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".armTotalHealingRate" operation="add" value="0.8"/>
+    			        <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".legTotalHealingRate" operation="subtract" value="0.8"/>
+    			        <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".armTotalHealingRate" operation="subtract" value="0.8"/>
+                -->
+
+            </effect_group>
+
+        </buff>
+
+    </append>
+
+</configs>
