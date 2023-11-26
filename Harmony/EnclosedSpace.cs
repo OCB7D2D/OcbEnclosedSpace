@@ -9,8 +9,8 @@ public class OcbEnclosedSpace : IModApi
 
     public void InitMod(Mod mod)
     {
-        Log.Out("Loading OCB Enclosed Space Patch: " + GetType().ToString());
-        var harmony = new Harmony(GetType().ToString());
+        Log.Out("OCB Harmony Patch: " + GetType().ToString());
+        Harmony harmony = new Harmony(GetType().ToString());
         harmony.PatchAll(Assembly.GetExecutingAssembly());
     }
 
@@ -895,6 +895,7 @@ public class OcbEnclosedSpace : IModApi
                 int c_x = _chunk.GetBlockWorldPosX(p_x);
                 int c_z = _chunk.GetBlockWorldPosZ(p_z);
                 _chunk = (Chunk)world.GetChunkFromWorldPos(c_x, p_y, c_z);
+                if (_chunk == null) return BlockValue.Air;
                 p_x = World.toBlockXZ(p_x);
                 p_z = World.toBlockXZ(p_z);
             }

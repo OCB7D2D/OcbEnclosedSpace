@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("OCBNET")]
 [assembly: AssemblyProduct("OcbEnclosedSpace")]
-[assembly: AssemblyCopyright("Copyright © Marcel Greter 2021")]
+[assembly: AssemblyCopyright("Copyright © Marcel Greter 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

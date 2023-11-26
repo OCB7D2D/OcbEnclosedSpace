@@ -1,4 +1,4 @@
-# OCB Enclosed Space Mod - 7 Days to Die (A20) Addon
+# OCB Enclosed Space Mod - 7 Days to Die (A21) Addon
 
 This Mod tries to solve the issue that doors don't
 block light, thus they also don't create enclosed
@@ -17,10 +17,15 @@ It is only a proof of concept (work in progress)!
 
 ## Changelog
 
+### Version 0.1.1
+
+- Update compatibility for 7D2D A21.2(b30)
+- Handle potential null-pointer exception
+
 ### Version 0.1.0
 
 - Initial work in progress version
 
 ## Compatibility
 
-I've developed and tested this Mod against version a20.6 (b9).
+Developed initially for A20.6(b9), updated through A21.2(b30).
