@@ -21,13 +21,13 @@ public class EntityShelteredBuff
             if (___m_amountEnclosed > 0.9f)
             {
                 if (buffs.HasBuff("buffElementSheltered")) return;
-                Log.Out("+ buffElementSheltered");
+                // Log.Out("+ buffElementSheltered");
                 buffs.AddBuff("buffElementSheltered");
             }
             else
             {
                 if (!buffs.HasBuff("buffElementSheltered")) return;
-                Log.Out("- buffElementSheltered");
+                // Log.Out("- buffElementSheltered");
                 buffs.RemoveBuff("buffElementSheltered");
             }
         }
